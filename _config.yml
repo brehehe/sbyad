@@ -3,6 +3,7 @@ title: "Surabaya-Ad"
 description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklanan Surabaya."
 url: https://brehehe.github.io
 mainurl: https://brehehe.github.io/sbyad/
+loading_teks: PT. Surabaya Mediatama
 
 plugins:
   - jekyll-avatar
