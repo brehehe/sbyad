@@ -4,6 +4,7 @@ description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklana
 url: https://brehehe.github.io
 mainurl: https://brehehe.github.io/sbyad/
 loading_teks: PT. Surabaya Mediatama
+stylever: 2
 
 plugins:
   - jekyll-avatar
