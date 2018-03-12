@@ -6,6 +6,16 @@ mainurl: https://brehehe.github.io/sbyad
 loading_teks: PT. Surabaya Mediatama
 stylever: 2
 
+info.logourl: logo-sbyad.png
+info.logourlpp: pp-logo-sbyad.png
+info.email: admin@surabaya-ad.com
+info.nomor: 0812345678910
+info.deskripsi: "<p>Surabaya Ad merupakan Perusahaan yang bergerak dibidang Advertising & Promotion dengan jangkauan bisnis 
+di seluruh Indonesia, di bawah bendera PT. Surabaya Mediatama yang didirikan pada tanggal 12 Maret 2003 berdasarkan SK Menteri Kehakiman dan HAM R.I. 
+Nomor : C-06883.HT.01.01.TH.2003. </p>
+<p>Surabaya Ad telah 10 tahun berkegiatan bisnis dalam industri kreatif di Indonesia, 
+baik Above The Line maupun Below The Line yang didukung oleh team berpengalaman dengan standart kerja terbaik dibidangnya.</p>"
+
 plugins:
   - jekyll-avatar
   - jekyll-redirect-from

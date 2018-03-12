@@ -4,16 +4,16 @@
    <div class="wpb_column vc_column_container vc_col-sm-6">
     <div class="vc_column-inner ">
      <div class="wpb_wrapper">
-      <div class='text-with-icon'><span class='fa fa-envelope'> </span><a title='info@example.com' target=' _blank' href='index.html#'>info@example.com</a></div>
+      <div class='text-with-icon'><span class='fa fa-envelope'> </span>
+       <a title='{{site.info.email}}' target=' _blank' href='mailto:{{site.info.email}}'>{{site.info.email}}</a></div>
      </div>
     </div>
    </div>
    <div class="alignright wpb_column vc_column_container vc_col-sm-6">
     <div class="vc_column-inner ">
      <div class="wpb_wrapper">
-      <div class='text-with-icon'><span class='zmdi zmdi-pin-drop'> </span><a title='Branches' target='_self' href='http://agency.dttheme.com/location'>Branches</a></div>
-      <div class='text-with-icon'><span class='zmdi zmdi-local-grocery-store'> </span><a title='Store' target='_self' href='http://agency.dttheme.com/shop/'>Store</a></div>
-      <div class='text-with-icon'><span class='zmdi zmdi-pin-account'> </span><a title='Contact us' target='_self' href='http://agency.dttheme.com/contact-us/'>Contact us</a></div>
+      <div class='text-with-icon'><span class='zmdi zmdi-phone-in-talk'> </span>
+       <a title='Contact us' target='_self' href='tel:{{site.info.nomor}}'>{{site.info.nomor}}</a></div>
      </div>
     </div>
    </div>
@@ -23,7 +23,12 @@
 <div id="main-header-wrapper" class="main-header-wrapper">
  <div class="container">
   <div class="main-header">
-   <div id="logo"> <a href="index.html" title="Agency"> <img class="normal_logo" src="wp-content/themes/src/images/logo.png" alt="Agency" title="Agency" /> <img class="darkbg_logo" src="wp-content/themes/src/images/light-logo.png" alt="Agency" title="Agency" /> </a></div>
+   <div id="logo"> 
+    <a href="{{site.mainurl}}" title="{{site.title}}"> 
+     <img class="normal_logo" src="{{site.mainurl}}/{{site.info.logourlpp}}" alt="{{site.title}}" title="{{site.title}}" /> 
+     <img class="darkbg_logo" src="{{site.mainurl}}/{{site.info.logourlpp}}" alt="{{site.title}} | White Logo" title="{{site.title}} | White Logo" /> 
+    </a>
+   </div>
    <div id="menu-wrapper" class="menu-wrapper ">
     <div class="dt-menu-toggle" id="dt-menu-toggle"> Menu <span class="dt-menu-toggle-icon"></span></div>
     <nav id="main-menu" class="menu-main-menu-container">
