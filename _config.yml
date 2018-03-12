@@ -8,13 +8,17 @@ stylever: 2
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
-info_email: admin@surabaya-ad.com
+info_logourlppwht: logo-sby-ad-white.png
+info_email: marketing.surabaya_ad@yahoo.com
 info_nomor: 0812345678910
 info_deskripsi: "<p>Surabaya Ad merupakan Perusahaan yang bergerak dibidang Advertising & Promotion dengan jangkauan bisnis 
 di seluruh Indonesia, di bawah bendera PT. Surabaya Mediatama yang didirikan pada tanggal 12 Maret 2003 berdasarkan SK Menteri Kehakiman dan HAM R.I. 
 Nomor : C-06883.HT.01.01.TH.2003. </p>
 <p>Surabaya Ad telah 10 tahun berkegiatan bisnis dalam industri kreatif di Indonesia, 
 baik Above The Line maupun Below The Line yang didukung oleh team berpengalaman dengan standart kerja terbaik dibidangnya.</p>"
+info_alamat: "Kencanasari Timur XV/6 Surabaya 60224"
+info_tel1: 031-5611808
+info_tel2: 031-5619989
 
 plugins:
   - jekyll-avatar

@@ -3,11 +3,9 @@
   <div class="container">
    <div class='column dt-sc-one-third first'>
     <aside id="text-4" class="widget widget_text">
-     <div class="textwidget"><img src="{{site.mainurl}}/wp-content/themes/src/images/light-logo.png" alt="light-logo" style="width: 50%;">
+     <div class="textwidget"><img src="{{site.mainurl}}/{{site.info_logourlppwht}}" alt="light-logo {{site.title}}" style="width: 50%;">
       <div class="vc_empty_space" style="height: 25px"><span class="vc_empty_space_inner"></span></div>
-      <p>Agency is a wordpress theme that is truly multi-purpose with our way of taking care your needs.</p>
-      <div class="vc_empty_space" style="height: 10px"><span class="vc_empty_space_inner"></span></div>
-      <p> The barrage of shortcodes that works in the pages, makes it the better choice for your business.</p>
+      {{site.info_deskripsi}}
       <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
       <div class='alignleft  dt-sc-subtitle-text'>STAY CONNECTED</div>
       <ul class='dt-sc-sociable  dt-simple-narrow'>
@@ -23,30 +21,20 @@
      <h3 class="widgettitle">Useful Links</h3>
      <div class="textwidget">
       <ul class="split-list no-border no-bullet hvr-push-to-right">
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Home </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Company News </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> About us </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Projects </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Careers </a></li>
-      </ul>
-      <ul class="split-list no-border no-bullet hvr-push-to-right">
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Contact us </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Legal Support </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Give us feedback </a></li>
-       <li> <a title="" href="{{site.mainurl}}/index.html#"> <i class="fa fa-angle-right"></i> Talk to us </a></li>
+       <li> <a title="" href="{{site.mainurl}}/"> <i class="fa fa-angle-right"></i> Home </a></li>
       </ul>
      </div>
     </aside>
    </div>
    <div class='column dt-sc-one-third '>
     <aside id="text-5" class="widget widget_text">
-     <h3 class="widgettitle">Contact Us</h3>
+     <h3 class="widgettitle">Kontak kami</h3>
      <div class="textwidget">
-      <div class='dt-sc-contact-info  '><span class='fa fa-home'> </span>71 Pilgrim Avenue, Chevy Chase, <br>MD 20815</div>
+      <div class='dt-sc-contact-info  '><span class='fa fa-home'> </span>{{site.info_alamat}}</div>
       <div class='dt-sc-hr-invisible-xsmall '></div>
-      <div class='dt-sc-contact-info  '><span class='fa fa-phone'> </span>(226) 906-2721<br>(671) 925-1352</div>
+      <div class='dt-sc-contact-info  '><span class='fa fa-phone'> </span>{{site.info_tel1}}<br>{{site.info_tel2}}</div>
       <div class='dt-sc-hr-invisible-xsmall '></div>
-      <div class='dt-sc-contact-info  '><span class='fa fa-envelope'> </span><a href="index.html#"> info@agency.com</a></div>
+      <div class='dt-sc-contact-info  '><span class='fa fa-envelope'> </span><a href="mailto:{{site.info_email}}"> {{site.info_email}}</a></div>
      </div>
     </aside>
    </div>
@@ -54,10 +42,10 @@
  </div>
  <div class="footer-copyright dt-sc-dark-bg">
   <div class="container">
-   <div class="column dt-sc-one-half first ">Copyright &copy; 2018, <a title="" href="http://themeforest.net/user/designthemes">DesignThemes</a>
+   <div class="column dt-sc-one-half first ">Copyright &copy; 2018
     <ul id="menu-footer-menu" class="menu-links ">
-     <li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="index.html#">Privacy Policy</a></li>
-     <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="index.html#">Terms &#038; Conditions</a></li>
+     <li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39"><a href="{{site.main_url}}">Privacy Policy</a></li>
+     <li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="{{site.main_url}}">Terms &#038; Conditions</a></li>
     </ul>
    </div>
   </div>
