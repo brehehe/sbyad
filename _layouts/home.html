@@ -1,5 +1,22 @@
 {% include_relative _layouts/head.html %}
 {% include_relative _layouts/head-body.html %}
-{{content}}
-{{page.this_page}}
-{% include_relative _layouts/footer.html %}
+<div class="wrapper">
+ <div class="inner-wrapper">
+  <div id="header-wrapper" class="">
+   <header id="header">
+    {% include_relative layout/home_menu.html %}
+    {% if page.this_page == "home" %}
+    {% include_relative layout/home_slide.html %}
+    {% endif %}
+   </header>
+   <div id="main">
+    <div class="container">
+     <section id="primary" class="content-full-width">
+      <div id="post-5" class="post-5 page type-page status-publish hentry">
+       {{ content }}
+      </div>
+     </section>
+    </div>
+   </div>
+  </div>
+  {% include_relative _layouts/footer.html %}
