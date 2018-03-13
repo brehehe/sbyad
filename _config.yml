@@ -25,6 +25,19 @@ sosmed_facebook: https://www.facebook.com/surabayaad
 sosmed_twitter: https://twitter.com/Surabaya_Ad
 sosmed_instagram: https://www.instagram.com/surabayaad/
 
+team_1:
+  - dir-300px.jpg|Nono Suparno|Director
+  - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
+  - white-300.jpg|Ria CH|Marketing Manager
+team_2:
+  - dwi-adi-c.jpg|Dwi Ady C.|Event Manager
+  - anton-ar.jpg|Anton R.|Creative Director
+  - white-300.jpg|Dony|Web programmer
+team_3:
+  - abdul-hamid.jpg|Abdul Hamid|Account Manager
+  - dwi-andika.jpg|Dwi Andika|Finance Manager
+  - tyas.jpg|Tyas Astuti|Media Planner
+
 client:
   - brand1.png|Brand 1
   - brand1.png|Brand 2

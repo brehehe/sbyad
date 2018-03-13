@@ -9,55 +9,12 @@
      <h2 style="font-size: 60px;line-height: 50px;text-align: center" class="vc_custom_heading"><strong>Solid Team</strong></h2>
     </div>
     <div class="ult-spacer spacer-5a9fca68568f8" data-id="5a9fca68568f8" data-height="90" data-height-mobile="60" data-height-tab="75" data-height-tab-portrait="75" data-height-mobile-landscape="60" style="clear:both;display:block;"></div>
-    <div class="vc_row wpb_row vc_inner vc_row-fluid" style="color: rgba(114, 152, 166, 0.3);">
-     <div class="wpb_column vc_column_container vc_col-sm-4">
-      <div class="vc_column-inner ">
-       <div class="wpb_wrapper">
-        <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.3" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
-         <div class='dt-sc-team  simple-rounded aligncenter'>
-          <div class='dt-sc-team-thumb'>
-           <img width="300" height="300" src="{{site.mainurl}}/img/dir-300px.jpg" class="attachment-full" alt="testimonial4" sizes="(max-width: 300px) 100vw, 300px" /></div>
-          <div class='dt-sc-team-details'>
-           <h4>Nono Suparno</h4>
-           <h5>Director</h5>
-           <!--<p></p>-->
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="wpb_column vc_column_container vc_col-sm-4">
-      <div class="vc_column-inner ">
-       <div class="wpb_wrapper">
-        <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.6" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
-         <div class='dt-sc-team  simple-rounded aligncenter'>
-          <div class='dt-sc-team-thumb'><img width="300" height="300" src="{{site.mainurl}}/img/white-300.jpg" class="attachment-full" alt="testimonial8" sizes="(max-width: 300px) 100vw, 300px" /></div>
-          <div class='dt-sc-team-details'>
-           <h4>Ria CH</h4>
-           <h5>Marketing Manager</h5>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="wpb_column vc_column_container vc_col-sm-4">
-      <div class="vc_column-inner ">
-       <div class="wpb_wrapper">
-        <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.9" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
-         <div class='dt-sc-team  simple-rounded aligncenter'>
-          <div class='dt-sc-team-thumb'><img width="300" height="300" src="{{site.mainurl}}/img/white-300.jpg" class="attachment-full" alt="testimonial6" sizes="(max-width: 300px) 100vw, 300px" /></div>
-          <div class='dt-sc-team-details'>
-           <h4>Dodo W Zaman</h4>
-           <h5>Managing Director</h5>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
+    {% assign site_team=site.team_1 %}
+    {% include_relative layout/home_team_each_row.html %}
+    {% assign site_team=site.team_2 %}
+    {% include_relative layout/home_team_each_row.html %}
+    {% assign site_team=site.team_3 %}
+    {% include_relative layout/home_team_each_row.html %}
     <div class="ult-spacer spacer-5a9fca685ca2f" data-id="5a9fca685ca2f" data-height="135" data-height-mobile="90" data-height-tab="120" data-height-tab-portrait="120" data-height-mobile-landscape="90" style="clear:both;display:block;"></div>
    </div>
   </div>
