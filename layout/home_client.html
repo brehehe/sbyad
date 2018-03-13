@@ -34,7 +34,22 @@
      </div>
      <script type="text/javascript">
       jQuery(document).ready(function ($) {
-       $('.ult-carousel-19269007925aa6641c71b6c').slick({dots: true, autoplay: true, autoplaySpeed: 5000, speed: 300, infinite: true, arrows: true, nextArrow: '<button type="button" role="button" aria-label="Next" style="color:#333333; font-size:20px;" class="slick-next default"><i class="ultsl-arrow-right6"></i></button>', prevArrow: '<button type="button" role="button" aria-label="Previous" style="color:#333333; font-size:20px;" class="slick-prev default"><i class="ultsl-arrow-left6"></i></button>', slidesToScroll: 1, slidesToShow: 3, swipe: true, draggable: true, touchMove: true, pauseOnHover: true, responsive: [
+       $('.ult-carousel-19269007925aa6641c71b6c').slick({
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 300,
+        infinite: true,
+        arrows: true,
+        nextArrow: '<button type="button" role="button" aria-label="Next" style="color:#333333; font-size:20px;" class="slick-next default"><i class="ultsl-arrow-right6"></i></button>',
+        prevArrow: '<button type="button" role="button" aria-label="Previous" style="color:#333333; font-size:20px;" class="slick-prev default"><i class="ultsl-arrow-left6"></i></button>',
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        swipe: true,
+        draggable: true,
+        touchMove: true,
+        pauseOnHover: true,
+        responsive: [
          {
           breakpoint: 1025,
           settings: {
@@ -56,7 +71,8 @@
            slidesToScroll: 1
           }
          }
-        ], pauseOnDotsHover: true, customPaging: function (slider, i) {
+        ], pauseOnDotsHover: true,
+        customPaging: function (slider, i) {
          return '<i type="button" style="color:#333333;" class="ultsl-radio-checked" data-role="none"></i>';
         }, });
       });
