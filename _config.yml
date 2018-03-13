@@ -39,9 +39,16 @@ team_3:
   - tyas.jpg|Tyas Astuti|Media Planner
 
 client:
-  - brand1.png|Brand 1
-  - brand1.png|Brand 2
-  - brand1.png|Brand 3
+  - bpr-jatim.png|PT. BANK BPR JATIM
+  - cimb-niaga.png|PT. BANK NIAGA
+  - bank-bri.png|PT. BANK RAKYAT INDONESIA
+  - panin-bank.png|PT. BANK PANIN
+  - kanwil.png|KANWIL DJP JATIM I DAN II
+  - rs-phc.png|RS PHC
+  - heinz-abc.png|HEINZ ABC
+  - nippon-paint.png|PT. NIPSEA PAINT AND CHEMICALS
+  - profil-tank.png|PT. PROFILIA INDOTECH
+  - profil-tank.png|PT. PROFILIA INDOTECH
 
 plugins:
   - jekyll-avatar
