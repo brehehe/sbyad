@@ -26,9 +26,9 @@ sosmed_twitter: https://twitter.com/Surabaya_Ad
 sosmed_instagram: https://www.instagram.com/surabayaad/
 
 client:
-  - brand1.png|"Brand 1"
-  - brand1.png|"Brand 2"
-  - brand1.png|"Brand 3"
+  - brand1.png|Brand 1
+  - brand1.png|Brand 2
+  - brand1.png|Brand 3
 
 plugins:
   - jekyll-avatar
