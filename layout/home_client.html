@@ -11,6 +11,7 @@
      <div id="ult-carousel-12710244835aa6641c71c2f" class="ult-carousel-wrapper   ult_horizontal" data-gutter="15" data-rtl="false">
       <div class="ult-carousel-19269007925aa6641c71b6c ">
        {% for it in site.client %}
+       {% assign item=it | split: "|" %}
        <div class="ult-item-wrap" data-animation="animated no-animation">
         <div class="vc_row wpb_row vc_inner vc_row-fluid">
          <div class="ult-item-wrap" data-animation="animated no-animation">
@@ -18,7 +19,7 @@
            <div class="vc_column-inner ">
             <div class="wpb_wrapper">
              <div class="ult-item-wrap" data-animation="animated no-animation">
-              <img width="166" height="150" src="{{site.mainurl}}/img/company/brand1.png" class="aligncenter attachment-full" alt="brand1" /></div>
+              <img width="166" height="150" src="{{site.mainurl}}/img/company/{{item[0]}}" class="aligncenter attachment-full" alt="{{item[1]}}" /></div>
              <div class="ult-item-wrap" data-animation="animated no-animation">
               <div class="ult-spacer spacer-5aa6641c7239f" data-id="5aa6641c7239f" data-height="35" data-height-mobile="35" data-height-tab="35" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
              </div>
