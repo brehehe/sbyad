@@ -1,0 +1,68 @@
+<div class="vc_row wpb_row vc_row-fluid">
+ <div class="wpb_column vc_column_container vc_col-sm-12">
+  <div class="vc_column-inner ">
+   <div class="wpb_wrapper">
+    <div class="ult-spacer spacer-5aa6641c71741" data-id="5aa6641c71741" data-height="60" data-height-mobile="45" data-height-tab="60" data-height-tab-portrait="60" data-height-mobile-landscape="45" style="clear:both;display:block;"></div>
+    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="bounceInDown" data-animation-delay="1" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
+     <h4 style="font-size: 36px;text-align: center" class="vc_custom_heading">Our <strong>Clients</strong></h4>
+    </div>
+    <div class="ult-spacer spacer-5aa6641c719c8" data-id="5aa6641c719c8" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.3" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
+     <div id="ult-carousel-12710244835aa6641c71c2f" class="ult-carousel-wrapper   ult_horizontal" data-gutter="15" data-rtl="false">
+      <div class="ult-carousel-19269007925aa6641c71b6c ">
+       {% for it in site.client %}
+       <div class="ult-item-wrap" data-animation="animated no-animation">
+        <div class="vc_row wpb_row vc_inner vc_row-fluid">
+         <div class="ult-item-wrap" data-animation="animated no-animation">
+          <div class="wpb_column vc_column_container vc_col-sm-12">
+           <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+             <div class="ult-item-wrap" data-animation="animated no-animation">
+              <img width="166" height="150" src="{{site.mainurl}}/img/company/brand1.png" class="aligncenter attachment-full" alt="brand1" /></div>
+             <div class="ult-item-wrap" data-animation="animated no-animation">
+              <div class="ult-spacer spacer-5aa6641c7239f" data-id="5aa6641c7239f" data-height="35" data-height-mobile="35" data-height-tab="35" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       {% endfor %}
+      </div>
+     </div>
+     <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+       $('.ult-carousel-19269007925aa6641c71b6c').slick({dots: true, autoplay: true, autoplaySpeed: 5000, speed: 300, infinite: true, arrows: true, nextArrow: '<button type="button" role="button" aria-label="Next" style="color:#333333; font-size:20px;" class="slick-next default"><i class="ultsl-arrow-right6"></i></button>', prevArrow: '<button type="button" role="button" aria-label="Previous" style="color:#333333; font-size:20px;" class="slick-prev default"><i class="ultsl-arrow-left6"></i></button>', slidesToScroll: 1, slidesToShow: 3, swipe: true, draggable: true, touchMove: true, pauseOnHover: true, responsive: [
+         {
+          breakpoint: 1025,
+          settings: {
+           slidesToShow: 3,
+           slidesToScroll: 1,
+          }
+         },
+         {
+          breakpoint: 769,
+          settings: {
+           slidesToShow: 2,
+           slidesToScroll: 2
+          }
+         },
+         {
+          breakpoint: 481,
+          settings: {
+           slidesToShow: 1,
+           slidesToScroll: 1
+          }
+         }
+        ], pauseOnDotsHover: true, customPaging: function (slider, i) {
+         return '<i type="button" style="color:#333333;" class="ultsl-radio-checked" data-role="none"></i>';
+        }, });
+      });
+     </script>
+    </div>
+    <div class="ult-spacer spacer-5aa6641c748fa" data-id="5aa6641c748fa" data-height="60" data-height-mobile="45" data-height-tab="60" data-height-tab-portrait="60" data-height-mobile-landscape="45" style="clear:both;display:block;"></div>
+   </div>
+  </div>
+ </div>
+</div>
