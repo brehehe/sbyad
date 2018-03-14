@@ -37,6 +37,18 @@ team_3:
   - abdul-hamid.jpg|Abdul Hamid|Account Manager
   - dwi-andika.jpg|Dwi Andika|Finance Manager
   - tyas.jpg|Tyas Astuti|Media Planner
+# for another paging on team4
+team_4:
+  - dir-300px.jpg|Nono Suparno|Director
+  - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
+  - white-300.jpg|Ria CH|Marketing Manager
+  - dwi-adi-c.jpg|Dwi Ady C.|Event Manager
+team_5:
+  - anton-ar.jpg|Anton R.|Creative Director
+  - white-300.jpg|Dony|Web programmer
+  - abdul-hamid.jpg|Abdul Hamid|Account Manager
+  - dwi-andika.jpg|Dwi Andika|Finance Manager
+  - tyas.jpg|Tyas Astuti|Media Planner
 
 client:
   - bpr-jatim.png|PT. BANK BPR JATIM
