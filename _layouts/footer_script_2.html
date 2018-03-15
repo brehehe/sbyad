@@ -9,4 +9,9 @@
   mainColor: "#E91E63", // Can be any css supported color 'red', 'rgb(255,87,34)', etc
   alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
  };
+ jQuery("#slideshow").length && jQuery("#slideshow").superslides({
+  play: jQuery("#slideshow").data("speed"),
+  animation: "fade",
+  pagination: !1
+ })
 </script>
