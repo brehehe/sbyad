@@ -5,10 +5,10 @@
   <div id="header-wrapper" class="">
    <header id="header">
     {% include_relative layout/home_menu.html %}
-    {% if page.this_page == "home" %}
-    {% include_relative layout/home_slide_superslide.html %}
-    {% endif %}
    </header>
+   {% if page.this_page == "home" %}
+   {% include_relative layout/home_slide_superslide.html %}
+   {% endif %}
    <div id="main">
     <div class="container">
      <section id="primary" class="content-full-width">
