@@ -23,5 +23,5 @@
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
 	#header{position: fixed; z-index: 9999999}
-	#main{ margin-top: 100px;}
+	.no-breadcrumb #main, #main{ margin-top: 100px;}
 }
