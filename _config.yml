@@ -1,4 +1,7 @@
 # global settings
+# command 
+# jekyll serve --incremental
+# jekyll serve --incremental --host 0.0.0.0
 title: "Surabaya-Ad"
 description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklanan Surabaya."
 url: http://demo.surabaya-ad.com
@@ -6,18 +9,19 @@ url: http://demo.surabaya-ad.com
 mainurl: http://demo.surabaya-ad.com
 # mainurl: http://127.0.0.1:4000
 loading_teks: PT. Surabaya Mediatama
-stylever: 5
+stylever: 6
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
 info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
-info_email: marketing.surabaya_ad@yahoo.com
+#info_email: marketing.surabaya_ad@yahoo.com
+info_email: info@surabaya-ad.com
 info_whatsapp: 08123480099
 info_nomor: 031-5611808
 info_deskripsi: "<p>Surabaya Ad merupakan Perusahaan yang bergerak dibidang Advertising & Promotion dengan jangkauan bisnis 
 di seluruh Indonesia, di bawah bendera PT. Surabaya Mediatama yang didirikan pada tanggal 12 Maret 2003 berdasarkan SK Menteri Kehakiman dan HAM R.I. 
 Nomor : C-06883.HT.01.01.TH.2003. </p>
-<p>Surabaya Ad telah 10 tahun berkegiatan bisnis dalam industri kreatif di Indonesia, 
+<p>Surabaya Ad telah 15 tahun berkegiatan bisnis dalam industri kreatif di Indonesia, 
 baik Above The Line maupun Below The Line yang didukung oleh team berpengalaman dengan standart kerja terbaik dibidangnya.</p>"
 info_alamat: "Kencanasari Timur XV/6 Surabaya 60224"
 info_tel1: 031-5611808
