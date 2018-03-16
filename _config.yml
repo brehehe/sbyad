@@ -4,12 +4,12 @@
 # jekyll serve --incremental --host 0.0.0.0
 title: "Surabaya-Ad"
 description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklanan Surabaya."
-#url: http://demo.surabaya-ad.com
-url: http://127.0.0.1:4000
-#mainurl: http://demo.surabaya-ad.com
-mainurl: http://127.0.0.1:4000
+url: http://demo.surabaya-ad.com
+#url: http://127.0.0.1:4000
+mainurl: http://demo.surabaya-ad.com
+#mainurl: http://127.0.0.1:4000
 loading_teks: PT. Surabaya Mediatama
-stylever: 6
+stylever: 7
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
