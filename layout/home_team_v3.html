@@ -1,0 +1,56 @@
+<div class="vc_row wpb_row vc_row-fluid">
+	<div class="aligncenter wpb_column vc_column_container vc_col-sm-12">
+		<div class="vc_column-inner ">
+			<div class="wpb_wrapper">
+				<div class='dt-sc-small-separator '></div>
+				<h2>Solid Team</h2>
+				<div class='dt-sc-hr-invisible-small '></div>
+				<div class='dt-sc-clear '></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="vc_row wpb_row vc_row-fluid">
+	{% assign site_team=site.team_4 %}
+	{% assign col=3 %}
+	{% for eteam in site_team %}
+ {% assign et = eteam | split: "|" %}
+	<div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-{{col}}">
+		<div class="vc_column-inner ">
+			<div class="wpb_wrapper">
+				<div class='dt-sc-team hide-social-show-on-hover details-on-image '>
+					<div class='dt-sc-team-thumb'>
+						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}" class="attachment-full" alt="" />
+					</div>
+					<div class='dt-sc-team-details'>
+						<h4>{{et[1]}}</h4>
+						<h5>{{et[2]}}</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+<div class="vc_row wpb_row vc_row-fluid">
+	{% assign site_team=site.team_5 %}
+	{% assign col=3 %}
+	{% for eteam in site_team %}
+ {% assign et = eteam | split: "|" %}
+	<div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-{{col}}">
+		<div class="vc_column-inner ">
+			<div class="wpb_wrapper">
+				<div class='dt-sc-team hide-social-show-on-hover details-on-image '>
+					<div class='dt-sc-team-thumb'>
+						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}" class="attachment-full" alt="" /></div>
+					<div class='dt-sc-team-details'>
+						<h4>{{et[1]}}</h4>
+						<h5>{{et[2]}}</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+<div class="ult-spacer spacer-5aa6641c71741" data-id="5aa6641c71741" data-height="40" data-height-mobile="40" data-height-tab="40" data-height-tab-portrait="60" data-height-mobile-landscape="45" style="clear:both;display:block;"></div>

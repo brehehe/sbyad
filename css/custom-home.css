@@ -22,3 +22,12 @@
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
 }
+.dt-sc-team .dt-sc-team-details h4{
+	font-size: 15px;
+}
+.dt-sc-team .dt-sc-team-details h5{
+	font-size: 12px;
+}
+.dt-sc-team .dt-sc-team-details{
+	padding: 10px 10px;
+}
