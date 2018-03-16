@@ -1,14 +1,16 @@
 # global settings
 title: "Surabaya-Ad"
 description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklanan Surabaya."
-url: https://sbyad.dony.asia
-mainurl: https://sbyad.dony.asia
+url: http://demo.surabaya-ad.com
+# url: http://127.0.0.1:4000
+mainurl: http://demo.surabaya-ad.com
+# mainurl: http://127.0.0.1:4000
 loading_teks: PT. Surabaya Mediatama
 stylever: 4
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
-info_logourlppwht: logo-sby-ad-white.png
+info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
 info_email: marketing.surabaya_ad@yahoo.com
 info_whatsapp: 08123480099
 info_nomor: 031-5611808

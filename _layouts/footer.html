@@ -59,61 +59,61 @@
 </div>
 </div>
 <script>
- (function (body) {
- 'use strict';
- body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
- })(document.body);</script>
+	(function (body) {
+	'use strict';
+	body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+	})(document.body);</script>
 <script type='text/javascript'>
- /*  */
- var tribe_l10n_datatables = {
- "aria": {
- "sort_ascending": ": activate to sort column ascending",
-         "sort_descending": ": activate to sort column descending"
- },
-         "length_menu": "Show _MENU_ entries",
-         "empty_table": "No data available in table",
-         "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-         "info_empty": "Showing 0 to 0 of 0 entries",
-         "info_filtered": "(filtered from _MAX_ total entries)",
-         "zero_records": "No matching records found",
-         "search": "Search:",
-         "all_selected_text": "All items on this page were selected. ",
-         "select_all_link": "Select all pages",
-         "clear_selection": "Clear Selection.",
-         "pagination": {
-         "all": "All",
-                 "next": "Next",
-                 "previous": "Previous"
-         },
-         "select": {
-         "rows": {
-         "0": "",
-                 "_": ": Selected %d rows",
-                 "1": ": Selected 1 row"
-         }
-         },
-         "datepicker": {
-         "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                 "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                 "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
-                 "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-                 "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-                 "nextText": "Next",
-                 "prevText": "Prev",
-                 "currentText": "Today",
-                 "closeText": "Done"
-         }
- }; /*  */
+	/*  */
+	var tribe_l10n_datatables = {
+	"aria": {
+	"sort_ascending": ": activate to sort column ascending",
+									"sort_descending": ": activate to sort column descending"
+	},
+									"length_menu": "Show _MENU_ entries",
+									"empty_table": "No data available in table",
+									"info": "Showing _START_ to _END_ of _TOTAL_ entries",
+									"info_empty": "Showing 0 to 0 of 0 entries",
+									"info_filtered": "(filtered from _MAX_ total entries)",
+									"zero_records": "No matching records found",
+									"search": "Search:",
+									"all_selected_text": "All items on this page were selected. ",
+									"select_all_link": "Select all pages",
+									"clear_selection": "Clear Selection.",
+									"pagination": {
+									"all": "All",
+																	"next": "Next",
+																	"previous": "Previous"
+									},
+									"select": {
+									"rows": {
+									"0": "",
+																	"_": ": Selected %d rows",
+																	"1": ": Selected 1 row"
+									}
+									},
+									"datepicker": {
+									"dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+																	"dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+																	"dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+																	"monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+																	"monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+																	"nextText": "Next",
+																	"prevText": "Prev",
+																	"currentText": "Today",
+																	"closeText": "Done"
+									}
+	}; /*  */
 </script>
 <script type="text/javascript">
- function revslider_showDoubleJqueryError(sliderID) {
- var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
- errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
- errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
- errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
- errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
- jQuery(sliderID).show().html(errorMessage);
- }
+	function revslider_showDoubleJqueryError(sliderID) {
+	var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+	errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+	errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+	errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+	errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+	jQuery(sliderID).show().html(errorMessage);
+	}
 </script>
 <link rel='stylesheet' id='vc_google_fonts_montserratregular700-css' href='//fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&amp;ver=4.9.3' type='text/css' media='all' />
 <script type='text/javascript' src='{{site.mainurl}}/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0'></script>
@@ -150,8 +150,16 @@
 <script type='text/javascript' src='{{site.mainurl}}/js/scripts.js?ver={{ site.stylever }}'></script>
 {% include_relative _layouts/footer_script_2.html %}
 <script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
-<style type="text/css">
- {% include_relative css/herocss.css %}
-</style>
+<link rel="stylesheet" href="{{site.mainurl}}/css/herocss.css?ver={{site.stylever}}" />
+{% if page.this_page == "home" %}
+<link rel="stylesheet" href="{{site.mainurl}}/css/custom-home.css?ver={{site.stylever}}" />
+{% else %}
+<link rel="stylesheet" href="{{site.mainurl}}/css/custom-all.css?ver={{site.stylever}}" />
+{% endif %}
+{% if page.this_page == "home" %}
+<script type='text/javascript' src='{{site.mainurl}}/js/costum-home.js?ver={{site.stylever}}'></script>
+{% else %}
+<script type='text/javascript' src='{{site.mainurl}}/js/costum-all.js?ver={{site.stylever}}'></script>
+{% endif %}
 </body>
 </html>

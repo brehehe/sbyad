@@ -1,0 +1,24 @@
+.top-bar{color:#FFF;}
+.text-with-icon a{
+	color: #FFF;
+}
+.bgtrp{
+	background: transparent;
+}
+.bgorg{
+	background: #333;
+}
+@media (min-width: 770px){
+	#main-menu ul.menu>li>a{
+		color: #FFF;
+	}
+	.top-bar ul.menu-links li a:after, .top-bar .text-with-icon:after{
+		background-color: #FFF;
+	}
+}
+@media (min-width: 200px) and (max-width: 769px) {
+	.top-bar{display:none;}
+	#logo{display:none;}
+	.dt-menu-toggle img{width: 50%}
+	.dt-menu-toggle{background: #333;}
+}
