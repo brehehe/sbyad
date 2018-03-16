@@ -15,10 +15,12 @@
 	.top-bar ul.menu-links li a:after, .top-bar .text-with-icon:after{
 		background-color: #FFF;
 	}
+	#header{position: absolute;}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
 	#logo{display:none;}
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
+	#header{position: fixed;}
 }
