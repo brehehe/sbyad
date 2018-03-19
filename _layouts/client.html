@@ -1,0 +1,69 @@
+{% include tema/head.html %}
+{% include tema/head-body.html %}
+<div class="wrapper">
+ <div class="inner-wrapper">
+  <div id="header-wrapper" class="">
+			{% if page.this_page == "home" %}
+   <header id="header" style="background: transparent; z-index: 9999;">
+				{% include layout/home_menu.html %}
+			</header>
+			{% else %}
+   <header id="header">
+				{% include layout/home_menu.html %}
+			</header>			
+			{% endif %}
+			{% if page.this_page == "home" %}
+			{% include layout/home_slide_superslide.html %}
+			{% endif %}
+			<div id="main">
+				<div class="container">
+					<section id="primary" class="content-full-width">
+						<div id="post-5" class="post-5 page type-page status-publish hentry">
+							{% include clients/title.html %}
+							<div class="vc_row wpb_row vc_row-fluid">
+								<div class="rs_col-sm-12 wpb_column vc_column_container vc_col-sm-9">
+									<div class="vc_column-inner ">
+										<div class="wpb_wrapper">
+											{% for vi in page.video %}
+												<iframe width="100%" height="451" src="https://www.youtube.com/embed/{{ vi }}?autoplay=1" 
+             allow="autoplay; encrypted-media"
+             frameborder="0" allowfullscreen></iframe>
+											{% endfor %}
+											{{ content }}
+										</div>
+									</div>
+								</div>
+								<div class="rs_col-sm-12 wpb_column vc_column_container vc_col-sm-3">
+									<div class="vc_column-inner ">
+										<div class="wpb_wrapper">
+											<h3 style="text-align: left" class="vc_custom_heading vcr_heading-right vc_custom_1495198629690">Our Portfolio</h3>
+											<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_pos_align_left vc_separator_no_text  vcr_heading-right">
+												<span class="vc_sep_holder vc_sep_holder_l"><span  style="border-color:#636363;" class="vc_sep_line"></span></span>
+												<span class="vc_sep_holder vc_sep_holder_r"><span  style="border-color:#636363;" class="vc_sep_line"></span></span>
+											</div>
+											<ul>
+												{% for cl in site.clients %}
+												<li><a href="{{ site.mainurl }}{{ cl.url }}" title="{{ cl.title }}">{{ cl.title }}</a></li>
+												{% endfor %}
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-12">
+									<div class="vc_column-inner ">
+										<div class="wpb_wrapper">
+											<div class="ult-spacer spacer-5aa66434d7755" data-id="5aa66434d7755" data-height="80" data-height-mobile="48" data-height-tab="64" data-height-tab-portrait="64" data-height-mobile-landscape="48" style="clear:both;display:block;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+  </div>
+  {% include tema/footer.html %}
+		{% include tema/footer_script_1.html %}
+		{% include tema/footer_script_2.html %}
+		{% include tema/footer_script_3.html %}
+		{% include tema/footer_script_4.html %}

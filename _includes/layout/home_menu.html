@@ -32,8 +32,13 @@
 				<div class="main-header">
 					<div id="logo"> 
 						<a href="{{site.mainurl}}" title="{{site.title}}"> 
+							{% if page.this_page == "home" %}
 							<img class="normal_logo" src="{{site.mainurl}}/img/logo/putih/logo-sby-ad-putih-500.png" alt="{{site.title}}" title="{{site.title}}" /> 
 							<img class="darkbg_logo" src="{{site.mainurl}}/img/logo/putih/logo-sby-ad-putih-500.png" alt="{{site.title}} | White Logo" title="{{site.title}} | White Logo" /> 
+							{% else %}
+							<img class="normal_logo" src="{{site.mainurl}}/img/logo/hitam/logo-sby-ad-500.png" alt="{{site.title}}" title="{{site.title}}" /> 
+							<img class="darkbg_logo" src="{{site.mainurl}}/img/logo/putih/logo-sby-ad-putih-500.png" alt="{{site.title}} | White Logo" title="{{site.title}} | White Logo" /> 
+							{% endif %}
 						</a>
 					</div>
 					<div id="menu-wrapper" class="menu-wrapper ">

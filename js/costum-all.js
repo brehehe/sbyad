@@ -7,10 +7,10 @@ jQuery(window).on("load scroll", function () {
 		// jos
 		// jQuery("#main-header-wrapper").removeClass('bgtrp');
 		// jQuery("#main-header-wrapper").addClass('bgorg');
-		jQuery("#main-header-wrapper").css({background: '#333'})
+		// jQuery("#main-header-wrapper").css({background: '#333'})
 	} else {
 		// jQuery("#main-header-wrapper").removeClass('bgorg');
 		// jQuery("#main-header-wrapper").addClass('bgtrp');
-		jQuery("#main-header-wrapper").css({background: '#333'})
+		// jQuery("#main-header-wrapper").css({background: 'transparent'})
 	}
 })

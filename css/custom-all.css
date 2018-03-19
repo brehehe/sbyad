@@ -2,20 +2,22 @@
 .text-with-icon a{
 	color: #FFF;
 }
-.bgtrp{
+.bgorg{
 	background: #333;
 }
-.bgorg{
+.dt-sc-skin-highlight{
 	background: #333;
 }
 @media (min-width: 770px){
 	#main-menu ul.menu>li>a{
-		color: #FFF;
+		color: #333;
 	}
 	.top-bar ul.menu-links li a:after, .top-bar .text-with-icon:after{
 		background-color: #FFF;
 	}
-
+	.bgtrp{
+		background: transparent;
+	}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
@@ -23,6 +25,8 @@
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
 	#header{position: fixed; z-index: 9999999}
-	
+	.bgtrp{
+		background: #333;
+	}	
 	.no-breadcrumb #main, #main{ margin-top: 100px;}
 }

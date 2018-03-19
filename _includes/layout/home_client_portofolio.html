@@ -1,0 +1,26 @@
+<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+ <div class="wpb_column vc_column_container vc_col-sm-12">
+  <div class="vc_column-inner ">
+   <div class="wpb_wrapper">
+    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.7" data-animation-duration="1" data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
+     <div class="dt-sc-portfolio-container no-space">
+						{% assign i = 1 %}
+						{% for ic in site.clients %}
+      <div id="dt_portfolios-7425" class="type1 no-space portfolio column dt-sc-one-fifth {% if i == 1%}first{% endif %}{% if i == 6 %}first{% endif %}{% if i == 11 %}first{% endif %}{% if i == 16 %}first{% endif %}{% if i == 21 %}first{% endif %}">
+       <figure>
+        <img src="{{site.mainurl}}{{ic.img}}" alt="Portoflio {{ic.title}}" title="Gallery Photo {{ic.title}}" />
+        <div class="image-overlay">
+         <div class="image-overlay-details">
+										<h2><a title="{{ic.title}}" href="{{site.mainurl}}{{ic.url}}">{{ic.title}}</a></h2>
+         </div>
+        </div>
+       </figure>
+      </div>
+						{% assign i = i | plus: 1 %}
+						{% endfor %}
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

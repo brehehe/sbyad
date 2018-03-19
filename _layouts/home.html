@@ -1,19 +1,19 @@
-{% include_relative _layouts/head.html %}
-{% include_relative _layouts/head-body.html %}
+{% include tema/head.html %}
+{% include tema/head-body.html %}
 <div class="wrapper">
  <div class="inner-wrapper">
   <div id="header-wrapper" class="">
 			{% if page.this_page == "home" %}
    <header id="header" style="background: transparent; z-index: 9999;">
-				{% include_relative layout/home_menu.html %}
+				{% include layout/home_menu.html %}
 			</header>
 			{% else %}
    <header id="header">
-				{% include_relative layout/home_menu.html %}
+				{% include layout/home_menu.html %}
 			</header>			
 			{% endif %}
 			{% if page.this_page == "home" %}
-			{% include_relative layout/home_slide_superslide.html %}
+			{% include layout/home_slide_superslide.html %}
 			{% endif %}
 			<div id="main">
 				<div class="container">
@@ -25,4 +25,8 @@
 				</div>
 			</div>
   </div>
-  {% include_relative _layouts/footer.html %}
+  {% include tema/footer.html %}
+		{% include tema/footer_script_1.html %}
+		{% include tema/footer_script_2.html %}
+		{% include tema/footer_script_3.html %}
+		{% include tema/footer_script_4.html %}

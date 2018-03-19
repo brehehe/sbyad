@@ -8,6 +8,15 @@
 .bgorg{
 	background: #333;
 }
+.dt-sc-team .dt-sc-team-details h5{
+	font-size: 12px;
+}
+.dt-sc-team .dt-sc-team-details{
+	padding: 10px 10px;
+}
+.dt-sc-team .dt-sc-team-details h4{
+	font-size: 15px;
+}
 @media (min-width: 770px){
 	#main-menu ul.menu>li>a{
 		color: #FFF;
@@ -16,6 +25,7 @@
 		background-color: #FFF;
 	}
 	#header{position: absolute;}
+	.no-breadcrumb #main{margin-top: 0;}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
@@ -23,13 +33,4 @@
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
 	#header{position: fixed;}
-}
-.dt-sc-team .dt-sc-team-details h4{
-	font-size: 15px;
-}
-.dt-sc-team .dt-sc-team-details h5{
-	font-size: 12px;
-}
-.dt-sc-team .dt-sc-team-details{
-	padding: 10px 10px;
 }
