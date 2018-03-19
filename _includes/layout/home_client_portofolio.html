@@ -8,7 +8,7 @@
 						{% for ic in site.clients %}
       <div id="dt_portfolios-7425" class="type1 no-space portfolio column dt-sc-one-fifth {% if i == 1%}first{% endif %}{% if i == 6 %}first{% endif %}{% if i == 11 %}first{% endif %}{% if i == 16 %}first{% endif %}{% if i == 21 %}first{% endif %}">
        <figure>
-        <img src="{{site.mainurl}}{{ic.img}}" alt="Portoflio {{ic.title}}" title="Gallery Photo {{ic.title}}" />
+        <img src="{{site.mainurl}}{{ic.img}}?ver={{site.stylever}}" alt="Portoflio {{ic.title}}" title="Gallery Photo {{ic.title}}" />
         <div class="image-overlay">
          <div class="image-overlay-details">
 										<h2><a title="{{ic.title}}" href="{{site.mainurl}}{{ic.url}}">{{ic.title}}</a></h2>
