@@ -1,8 +1,8 @@
 var b = jQuery(".main-header-wrapper").offset().top;
 jQuery(window).on("load scroll", function () {
 	var c = jQuery(this).scrollTop();
-	console.log("b = " + b);
-	console.log("c = " + c);
+	// console.log("b = " + b);
+	// console.log("c = " + c);
 	if (c > b) {
 		// jos
 		// jQuery("#main-header-wrapper").removeClass('bgtrp');
