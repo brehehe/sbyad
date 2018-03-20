@@ -20,7 +20,7 @@
 			<div class="wpb_wrapper">
 				<div class='dt-sc-team hide-social-show-on-hover details-on-image '>
 					<div class='dt-sc-team-thumb'>
-						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}" class="attachment-full" alt="" />
+						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}?ver={{site.stylever}}" class="attachment-full" alt="" />
 					</div>
 					<div class='dt-sc-team-details'>
 						<h4>{{et[1]}}</h4>
@@ -34,7 +34,7 @@
 </div>
 <div class="vc_row wpb_row vc_row-fluid">
 	{% assign site_team=site.team_5 %}
-	{% assign col=3 %}
+	{% assign col=2 %}
 	{% for eteam in site_team %}
  {% assign et = eteam | split: "|" %}
 	<div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-{{col}}">
@@ -42,7 +42,7 @@
 			<div class="wpb_wrapper">
 				<div class='dt-sc-team hide-social-show-on-hover details-on-image '>
 					<div class='dt-sc-team-thumb'>
-						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}" class="attachment-full" alt="" /></div>
+						<img width="300" height="300" src="{{site.mainurl}}/img/team/{{et[0]}}?ver={{site.stylever}}" class="attachment-full" alt="" /></div>
 					<div class='dt-sc-team-details'>
 						<h4>{{et[1]}}</h4>
 						<h5>{{et[2]}}</h5>
