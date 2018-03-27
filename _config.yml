@@ -47,14 +47,17 @@ team_3:
 team_4:
   - dir-300px.jpg|Nono Suparno|Director
   - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
+  - dwi-andika.jpg|Dwi Andika|Finance Manager
   - ira.jpg|Ria CH|Marketing Manager
   - dwi-adi-c.jpg|Dwi Ady C.|Event Manager
-team_5:
   - anton-ar.jpg|Anton R.|Creative Director
+team_5:
   - dony.jpg|Dony|Web programmer
   - abdul-hamid.jpg|Abdul Hamid|Account Manager
-  - dwi-andika.jpg|Dwi Andika|Finance Manager
-#  - tyas.jpg|Tyas Astuti|Media Planner
+  - tyas.jpg|Tyas Astuti|Media Planner
+  - white-300.jpg|Ifa |Marketing Support
+  - rahmat.jpg|Rahmat Gibran|Project Officer
+  - joko.jpg|Joko|Driver
 
 collections:
   clients:
