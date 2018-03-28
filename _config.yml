@@ -55,7 +55,7 @@ team_5:
   - dony.jpg|Dony|Web programmer
   - abdul-hamid.jpg|Abdul Hamid|Account Manager
   - tyas.jpg|Tyas Astuti|Media Planner
-  - white-300.jpg|Ifa |Marketing Support
+  - ifa.jpg|Ifa |Marketing Support
   - rahmat.jpg|Rahmat Gibran|Project Officer
   - joko.jpg|Joko|Driver
 
@@ -65,16 +65,27 @@ collections:
     permalink: /:collection/:name
 
 client:
-  - bpr-jatim.png|PT. BANK BPR JATIM
-  - cimb-niaga.png|PT. BANK NIAGA
-  - bank-bri.png|PT. BANK RAKYAT INDONESIA
-  - panin-bank.png|PT. BANK PANIN
-  - kanwil.png|KANWIL DJP JATIM I DAN II
-  - rs-phc.png|RS PHC
-  - heinz-abc.png|HEINZ ABC
-  - nippon-paint.png|PT. NIPSEA PAINT AND CHEMICALS
-  - profil-tank.png|PT. PROFILIA INDOTECH
-  - arwinto-dtc.png|PT. ARWINTO INTAN WIJAYA
+  - yamaha.png|pt. surya timur sakti jatim
+  - semen-gresik.png|pt. semen gresik
+  - petrokimia-gresik.jpg|pt. petrokimia gresik
+  - dtc-wonokromo.jpg|pt. arwinto intan wijaya
+  - bg-junction.png|pt. sentral super perkasa
+  - nippon-paint.png|pt. nipsea paint and chemicals
+  - heinz-abc.jpg|heinz abc
+  - rs-phc.png|rs phc surabaya
+  - honshu.png|cv. guna multi selaras
+# baris 2 or else
+  - bank-indonesia.png|Bank Indonesia
+  - bank-mandiri.jpg|Bank Mandiri
+  - bank-bni.jpg|Bank BNI
+  - bank-bri.png|bank bri
+  - bank-jatim.png|bank jatim
+  - bank-bpr.jpg|bank bpr jatim
+  - cimb-niaga.gif|bank niaga
+  - pegadaian.png|Pegadaian
+  - kanwil.png|Kanwil DJP Jatim I dan Jatim II
+# baris 3 or else
+  
 
 plugins:
   - jekyll-avatar

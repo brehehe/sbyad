@@ -26,6 +26,12 @@
 	}
 	#header{position: absolute;}
 	.no-breadcrumb #main{margin-top: 0;}
+	
+	.mobile-portfolio{display:none;}
+	.desktop-portfolio{display:block;}
+	.grid-auto{
+		
+	}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
@@ -33,6 +39,14 @@
 	.dt-menu-toggle img{width: 50%}
 	.dt-menu-toggle{background: #333;}
 	#header{position: fixed;}
+	/*
+	.column.no-space.dt-sc-one-fifth, .wpb_column.no-space.dt-sc-one-fifth {
+		width: 50%;
+	}*/
+	
+	.mobile-portfolio{display:block;}
+	.desktop-portfolio{display:none;}
+	
 }
 
 /* Button */
