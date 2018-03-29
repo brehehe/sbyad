@@ -9,7 +9,7 @@ url: https://www.surabaya-ad.com
 mainurl: https://www.surabaya-ad.com
 # mainurl: http://127.0.0.1:4000
 loading_teks: PT. Surabaya Mediatama
-stylever: 18
+stylever: 19
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
@@ -85,6 +85,25 @@ client:
   - pegadaian.png|Pegadaian
   - kanwil.png|Kanwil DJP Jatim I dan Jatim II
 # baris 3 or else
+  - pemprov-jatim.jpg|Pemprov Jatim
+  - kodya-surabaya.gif|Kotamadya Surabaya
+  - kab-malang.jpg|Kabupaten Malang
+  - kodya-batu.png|Kodya Batu
+  - kodya-pasuruan.png|Kodya Pasuruan
+  - dppka-sidoarjo.png|DPP KA Sidoarjo
+  - kemenkumham.png|Kemenkumham Jawa Timur
+  - kpu-jatim.jpg|KPU jatim
+  - kpu-jatim.jpg|KPU Bojonegoro
+# baris 4
+  - telkomsel.png|Telkomsel
+  - indosat.png|Indosat
+  - esia.jpg|Esia
+  - axis.jpg|Axis
+  - bacacepat.png|BacaCepat
+  - telkom.jpg|PT. telkom
+  - awaly.png|Awaly Fashion
+  - sarung-mangg.png|Sarung Mangga
+  - cakra.png|Cakra Tour
   
 
 plugins:

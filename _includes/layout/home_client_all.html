@@ -7,32 +7,44 @@
      <h4 style="font-size: 36px;text-align: center" class="vc_custom_heading">Our <strong>Clients</strong></h4>
     </div>
     <div class="ult-spacer spacer-5aa6641c719c8" data-id="5aa6641c719c8" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-				<div class="row">
-					{% for i in (0..8) %}
-					{% assign df = site.client[i] | split: "|" %}
-					{% assign ttl = df[1] | capitalize %}
-					<div class="col-xs">
-						<div style="height: 200px; display:block; margin:auto;text-align:center;">
-							<img align="middle" style="max-height: 180px;" src="{{site.mainurl}}/img/logo/logocl/{{df[0]}}?ver={{site.stylever}}" class="img-responsive" />
+				<div class='desktop-portfolio'>
+					{% assign divided = 9 %}
+					{% assign rows = site.client.size | divided_by: divided | ceil %}
+					{% for i in (1..rows) %}
+					{% assign offset = forloop.index0 | times: divided %}
+					<div class='row'>
+						{% for post in site.client limit:divided offset:offset %}
+						{% assign df = post | split: "|" %}
+      <div class="col-xs">
+							<div class='dvvv'>
+								<img src="{{site.mainurl}}/img/logo/logocl/{{df[0]}}?ver={{site.stylever}}" class="img-responsive" />
+							</div>
+							<p style="color: #000; text-align: center; font-size: 10px; text-transform: uppercase; font-weight: bold;">{{ df[1] }}</p>
 						</div>
-						<p style="color: #000; text-align: center; font-size: 10px; text-transform: uppercase; font-weight: bold;">{{ ttl }}</p>
+						{% endfor %}
 					</div>
 					{% endfor %}
 				</div>
-				<div class="row">
-					{% for i in (9..17) %}
-					{% assign df = site.client[i] | split: "|" %}
-					{% assign ttl = df[1] | capitalize %}
-					<div class="col-xs">
-						<div style="height: 200px; display:block; margin:auto;text-align:center;">
-							<img align="middle" style="max-height: 180px;" src="{{site.mainurl}}/img/logo/logocl/{{df[0]}}?ver={{site.stylever}}" class="img-responsive" />
+				<div class='mobile-portfolio'>
+					{% assign divided = 4 %}
+					{% assign rows = site.client.size | divided_by: divided | ceil %}
+					{% for i in (1..rows) %}
+					{% assign offset = forloop.index0 | times: divided %}
+					<div class='row'>
+						{% for post in site.client limit:divided offset:offset %}
+						{% assign df = post | split: "|" %}
+      <div class="col-xs">
+							<div class='dvvv'>
+								<img src="{{site.mainurl}}/img/logo/logocl/{{df[0]}}?ver={{site.stylever}}" class="img-responsive" />
+							</div>
+							<p style="color: #000; text-align: center; font-size: 10px; text-transform: uppercase; font-weight: bold;">{{ df[1] }}</p>
 						</div>
-						<p style="color: #000; text-align: center; font-size: 10px; text-transform: uppercase; font-weight: bold;">{{ ttl }}</p>
+						{% endfor %}
 					</div>
 					{% endfor %}
 				</div>
-    <div class="ult-spacer spacer-5aa6641c748fa" data-id="5aa6641c748fa" data-height="60" data-height-mobile="45" data-height-tab="60" data-height-tab-portrait="60" data-height-mobile-landscape="45" style="clear:both;display:block;"></div>
-   </div>
-  </div>
- </div>
+				<div class="ult-spacer spacer-5aa6641c748fa" data-id="5aa6641c748fa" data-height="60" data-height-mobile="45" data-height-tab="60" data-height-tab-portrait="60" data-height-mobile-landscape="45" style="clear:both;display:block;"></div>
+			</div>
+		</div>
+	</div>
 </div>

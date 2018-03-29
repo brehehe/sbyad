@@ -26,12 +26,9 @@
 	}
 	#header{position: absolute;}
 	.no-breadcrumb #main{margin-top: 0;}
-	
+
 	.mobile-portfolio{display:none;}
 	.desktop-portfolio{display:block;}
-	.grid-auto{
-		
-	}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
@@ -43,12 +40,24 @@
 	.column.no-space.dt-sc-one-fifth, .wpb_column.no-space.dt-sc-one-fifth {
 		width: 50%;
 	}*/
-	
+
 	.mobile-portfolio{display:block;}
 	.desktop-portfolio{display:none;}
-	
-}
 
+}
+.dvvv{
+	height: 200px;
+	position: relative;
+}
+.dvvv img{
+	max-height: 180px;
+	position: absolute;  
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0;  
+	margin: auto;
+}
 /* Button */
 
 @media only screen and (max-width: 479px){
