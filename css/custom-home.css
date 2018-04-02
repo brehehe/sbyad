@@ -29,6 +29,19 @@
 
 	.mobile-portfolio{display:none;}
 	.desktop-portfolio{display:block;}
+	.dvvv{
+		height: 200px;
+		position: relative;
+	}
+	.dvvv img{
+		max-height: 180px;
+		position: absolute;  
+		top: 0;  
+		bottom: 0;  
+		left: 0;  
+		right: 0;  
+		margin: auto;
+	}
 }
 @media (min-width: 200px) and (max-width: 769px) {
 	.top-bar{display:none;}
@@ -43,20 +56,19 @@
 
 	.mobile-portfolio{display:block;}
 	.desktop-portfolio{display:none;}
-
-}
-.dvvv{
-	height: 200px;
-	position: relative;
-}
-.dvvv img{
-	max-height: 180px;
-	position: absolute;  
-	top: 0;  
-	bottom: 0;  
-	left: 0;  
-	right: 0;  
-	margin: auto;
+	.dvvv{
+		height: 100px;
+		position: relative;
+	}
+	.dvvv img{
+		max-height: 80px;
+		position: absolute;  
+		top: 0;  
+		bottom: 0;  
+		left: 0;  
+		right: 0;  
+		margin: auto;
+	}
 }
 /* Button */
 

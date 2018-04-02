@@ -9,7 +9,7 @@ url: https://www.surabaya-ad.com
 mainurl: https://www.surabaya-ad.com
 # mainurl: http://127.0.0.1:4000
 loading_teks: PT. Surabaya Mediatama
-stylever: 19
+stylever: 20
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
@@ -32,7 +32,7 @@ sosmed_twitter: https://twitter.com/Surabaya_Ad
 sosmed_instagram: https://www.instagram.com/surabayaad/
 
 team_1:
-  - dir-300px.jpg|Nono Suparno|Director
+  - dir-300px.jpg|Nono Suparno|CEO
   - dodo-w-zaman.jpg|Dodo W. Zaman|Managing Director
   - white-300.jpg|Ria CH|Marketing Manager
 team_2:
