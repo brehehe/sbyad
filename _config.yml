@@ -2,8 +2,8 @@
 # command 
 # jekyll serve --incremental
 # jekyll serve --incremental --host 0.0.0.0
-title: "Surabaya-Ad"
-description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa periklanan Surabaya."
+title: "Surabaya Ad"
+description: "PT. Surabaya Mediatama - Media Campaign Specialist. Jasa agency Iklan Surabaya Jawa Timur."
 url: https://www.surabaya-ad.com
 # url: http://127.0.0.1:4000
 mainurl: https://www.surabaya-ad.com
@@ -30,6 +30,25 @@ info_tel2: 031-5619989
 sosmed_facebook: https://www.facebook.com/surabayaad
 sosmed_twitter: https://twitter.com/Surabaya_Ad
 sosmed_instagram: https://www.instagram.com/surabayaad/
+
+facebook: https://www.facebook.com/surabayaad/
+twitter: 
+  username: Surabaya_Ad
+
+social:
+  name: Surabaya AD
+  links:
+    - https://www.facebook.com/surabayaad
+    - https://twitter.com/Surabaya_Ad
+    - https://www.instagram.com/surabayaad/
+    - https://plus.google.com/u/2/113355031675278304715
+
+author:
+  twitter: Surabaya_Ad
+  facebook: surabayaad
+  instagram: surabayaad
+
+lang: id_ID
 
 team_1:
   - dir-300px.jpg|Nono Suparno|CEO
